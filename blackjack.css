@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-image: url("./background.jpg");
+  color: aqua;
+}
+#dealer-cards img {
+  height: 175px;
+  width: 125px;
+  margin: 1px;
+}
+#hidden img {
+  height: 175px;
+  width: 125px;
+  margin: 1px;
+}
+#your-cards img {
+  height: 175px;
+  width: 125px;
+  margin: 1px;
+}
+#hit {
+  height: 50px;
+  width: 100px;
+  margin: 20px;
+}
+#stay {
+  height: 50px;
+  width: 100px;
+  margin: 20px;
+}
+#replay {
+  height: 50px;
+  width: 100px;
+  margin: 20px;
+}
