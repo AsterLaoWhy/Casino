@@ -87,6 +87,7 @@ function startGame() {
   document.getElementById("hit").addEventListener("click", hit);
   document.getElementById("stay").addEventListener("click", stay);
   document.getElementById("replay").addEventListener("click", replay);
+  document.getElementById("back").addEventListener("click", back);
 }
 
 function hit() {
@@ -146,6 +147,7 @@ function replay() {
     yourSum = 0;
     dealerAceCount = 0;
     yourAceCount = 0;
+    canHit = true;
     document.getElementById("dealer-sum").innerText = "";
     document.getElementById("your-sum").innerText = "";
     document.getElementById("results").innerText = "";
@@ -157,6 +159,10 @@ function replay() {
     dealerCards.replaceChildren();
     startGame();
   }
+}
+
+function back() {
+  location.href = "../index.html";
 }
 
 function getValue(card) {

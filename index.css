@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-image: url("./Blackjack/background.gif");
+  background-size: cover;
+  color: aqua;
+}
+
+#blackjack21 {
+  height: 50px;
+  width: 100px;
+  margin: 20px;
+}
+#slots {
+  height: 50px;
+  width: 100px;
+  margin: 20px;
+}
+#login {
+  height: 50px;
+  width: 100px;
+  margin: 20px;
+}

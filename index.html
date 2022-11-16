@@ -3,25 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Black Jack</title>
-    <link rel="icon" href="favicon.ico"> <!-- This is temporary-->
-    <link rel="stylesheet" href="blackjack.css" />
-    <script src="blackjack.js"></script>
+    <title>Astersino</title>
+    <!-- <link rel="icon" href="favicon.ico" /> -->
+    <!-- This is temporary-->
+    <link rel="stylesheet" href="index.css" />
+
+    <script src="index.js"></script>
   </head>
   <body>
-    <h2>Dealer:<span id="dealer-sum"> </span><h2>
-    <div id="dealer-cards">
-        
-    </div>
-    
-    <h2>You: <span id="your-sum"> </span><h2></h2>
-    <div id="your-cards"></div>
+    <style>
+      .container {
+        height: 900px;
+        position: relative;
+      }
 
-    <br>
-    <button id="hit">Hit</button>
-    <button id="stay">Stay</button>
-    <button id = "replay">Replay</button>
-    <p id="results"></p>
+      .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+    </style>
+
+    <div class="container">
+      <div class="center">
+        <button id="blackjack21">Blackjack 21</button>
+        <button id="slots">Slots</button>
+      </div>
+    </div>
   </body>
-  
 </html>
